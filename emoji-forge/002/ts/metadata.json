@@ -1,0 +1,19 @@
+{
+  "emoji_name": "ts",
+  "display_name": "TypeScript",
+  "index": "002",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["ts", "typescript", "purrfect", "emoji", "catpaw", "types", "blue"],
+  "palette": ["#3178C6", "#ffffff", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "transparent",
+  "symbol": "TS monogram",
+  "easter_egg": "optional feline motif (subtle paw or whisker hint)",
+  "file_hires": "purr_ts_hires.png",
+  "file_discord": "purr_ts.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-29"
+}

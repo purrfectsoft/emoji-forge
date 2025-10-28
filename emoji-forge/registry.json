@@ -16,5 +16,24 @@
       "#1f77b4"
     ],
     "date_forged": "2025-10-28"
+  },
+  {
+    "index": "002",
+    "slug": "ts",
+    "display_name": "TypeScript",
+    "path": "emoji-forge/002/ts",
+    "file_hires": "purr_ts_hires.png",
+    "file_transparent": "purr_ts_transparent.png",
+    "file_discord": "purr_ts.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#3178C6",
+      "#ffffff",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-29"
   }
 ]
