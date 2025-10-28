@@ -1,0 +1,47 @@
+{
+  "name": "emoji-forge",
+  "version": "1.0.0",
+  "description": "Emoji creation workflow for Purrfect Universe.",
+  "author": "Arafat Zahan, ChatGPT, Gemini",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "repository": "https://github.com/purrfectsoft/emoji-forge",
+  "scripts": {
+    "prepare": "tsx src/index.ts",
+    "postinstall": "husky",
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint --edit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "forge": "tsx src/forge.ts",
+    "resize": "bash ./scripts/resize.sh",
+    "check": "bash ./scripts/check.sh && yarn build:registry --check",
+    "build:registry": "tsx src/build-registry.ts",
+    "lint": "prettier --check ."
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,cjs,mjs,json,jsonc,md,mdx,yaml,yml}": [
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-git"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@types/node": "^22.7.4",
+    "commitizen": "^4.3.1",
+    "cz-git": "^1.12.0",
+    "czg": "^1.12.0",
+    "husky": "^9.1.7",
+    "kleur": "^4.1.5",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3"
+  }
+}

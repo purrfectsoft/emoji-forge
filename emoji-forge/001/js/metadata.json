@@ -1,0 +1,19 @@
+{
+  "emoji_name": "js",
+  "display_name": "JavaScript",
+  "index": "001",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["js", "javascript", "purrfect", "emoji", "catpaw"],
+  "palette": ["#f7df1e", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "transparent",
+  "symbol": "DEFINE",
+  "easter_egg": "optional feline motif",
+  "file_hires": "purr_js_hires.png",
+  "file_discord": "purr_js.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-28"
+}

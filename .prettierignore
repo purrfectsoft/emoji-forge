@@ -1,0 +1,9 @@
+node_modules
+dist
+out
+coverage
+emoji-forge/**/purr_*_hires.png
+emoji-forge/**/purr_*_transparent.png
+emoji-forge/**/purr_*.png
+emoji-forge/registry.json
+yarn.lock

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+MSG_FILE="$1"
+COMMIT_SOURCE="${2-}"
+
+# If commit message already provided by -m, merge, squash, etc., skip
+if [ -n "${COMMIT_SOURCE:-}" ]; then
+  exit 0
+fi
+
+# Detect if message has any non-comment, non-whitespace content
+has_real_content() {
+  # returns 0 (true) if any line doesn't start with # and isn't blank
+  grep -q '^[^#[:space:]]' "$MSG_FILE"
+}
+
+# If file exists and has real content, skip
+if [ -s "$MSG_FILE" ] && has_real_content; then
+  exit 0
+fi
+
+# If not a TTY (GUI/IDE), skip interactive prompt
+if [ ! -t 1 ]; then
+  echo "🪶 Non-interactive environment, skipping interactive prompt."
+  exit 0
+fi
+
+echo "🐾 Launching interactive commit (czg)…"
+exec < /dev/tty
+# prefer czg; fallback to cz
+if command -v czg >/dev/null 2>&1; then
+  czg --hook || true
+else
+  npx --yes czg --hook || npx --yes cz --hook || true
+fi

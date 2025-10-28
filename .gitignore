@@ -1,0 +1,62 @@
+# ==============================================
+#  Purrfect Emoji Forge — .gitignore
+#  Keep sources, ignore generated & local files
+# ==============================================
+
+# Node & Yarn
+node_modules/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/patches
+!.yarnrc.yml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+
+# Editor / system junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment
+.env
+.env.*
+.purrfect_welcome_shown
+
+# Build artifacts (future TS builds)
+dist/
+out/
+coverage/
+*.tsbuildinfo
+
+# Image outputs — generated
+# Keep only source hires and essential metadata
+# Skip transparent and resized outputs (regenerated)
+emoji-forge/**/purr_*_transparent.png
+emoji-forge/**/purr_*.png
+!emoji-forge/**/purr_*_hires.png
+
+# Temporary / cache files
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+
+# OS metadata
+Icon?
+ehthumbs.db
+desktop.ini
+
+# Misc
+*.log
+*.orig
+*.rej

@@ -1,0 +1,20 @@
+[
+  {
+    "index": "001",
+    "slug": "js",
+    "display_name": "JavaScript",
+    "path": "emoji-forge/001/js",
+    "file_hires": "purr_js_hires.png",
+    "file_transparent": "purr_js_transparent.png",
+    "file_discord": "purr_js.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#f7df1e",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-28"
+  }
+]

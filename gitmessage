@@ -1,0 +1,20 @@
+# Commit message template — Purrfect Emoji Forge
+# Format: <type>(<scope>): <subject>
+#        <BLANK LINE>
+#        <body (optional)>
+#        <BLANK LINE>
+#        <footer (breaking changes / issues)>
+#
+# Types: feat | fix | docs | style | refactor | perf | test | build | ci | chore | revert
+# Scopes: src | scripts | emoji-forge | emoji-registry | docs | ci | config | release
+#
+# Examples:
+# feat(emoji-forge): add :ts: prompt with chroma-key workflow
+# fix(scripts): key background using average color with 10% fuzz
+# docs(readme): document registry build and CI
+# ci(config): add commitlint to PR workflow
+#
+# Breaking change example:
+# feat(src): migrate forge to ESM-only
+#
+# BREAKING CHANGE: forge now requires Node 18 and ESM import paths.
