@@ -35,5 +35,62 @@
       "#1f77b4"
     ],
     "date_forged": "2025-10-29"
+  },
+  {
+    "index": "003",
+    "slug": "html",
+    "display_name": "HTML",
+    "path": "emoji-forge/003/html",
+    "file_hires": "purr_html_hires.png",
+    "file_transparent": "purr_html_transparent.png",
+    "file_discord": "purr_html.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#E34F26",
+      "#F06529",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-29"
+  },
+  {
+    "index": "004",
+    "slug": "css",
+    "display_name": "CSS",
+    "path": "emoji-forge/004/css",
+    "file_hires": "purr_css_hires.png",
+    "file_transparent": "purr_css_transparent.png",
+    "file_discord": "purr_css.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#264DE4",
+      "#2965F1",
+      "#563D7C",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-29"
+  },
+  {
+    "index": "005",
+    "slug": "php",
+    "display_name": "PHP",
+    "path": "emoji-forge/005/php",
+    "file_hires": "purr_php_hires.png",
+    "file_transparent": "purr_php_transparent.png",
+    "file_discord": "purr_php.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#777BB4",
+      "#232531",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-29"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "emoji_name": "css",
+  "display_name": "CSS",
+  "index": "004",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["css", "style", "design", "purrfect", "emoji", "catpaw", "beauty"],
+  "palette": ["#264DE4", "#2965F1", "#563D7C", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "transparent",
+  "symbol": "Stylized curly braces { }",
+  "easter_egg": "tiny tail-like curve hidden in a brace",
+  "file_hires": "purr_css_hires.png",
+  "file_discord": "purr_css.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-29"
+}

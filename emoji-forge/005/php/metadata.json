@@ -1,0 +1,19 @@
+{
+  "emoji_name": "php",
+  "display_name": "PHP",
+  "index": "005",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["php", "backend", "purrfect", "emoji", "catpaw", "logic", "purple"],
+  "palette": ["#777BB4", "#232531", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "transparent",
+  "symbol": "PHP wordmark or stylized elephant curve",
+  "easter_egg": "subtle elephant silhouette integrated into curve",
+  "file_hires": "purr_php_hires.png",
+  "file_discord": "purr_php.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-29"
+}

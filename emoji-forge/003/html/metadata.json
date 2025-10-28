@@ -1,0 +1,19 @@
+{
+  "emoji_name": "html",
+  "display_name": "HTML",
+  "index": "003",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["html", "markup", "web", "purrfect", "emoji", "catpaw", "structure"],
+  "palette": ["#E34F26", "#F06529", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "transparent",
+  "symbol": "HTML tag glyph",
+  "easter_egg": "tiny closing tag /cat>",
+  "file_hires": "purr_html_hires.png",
+  "file_discord": "purr_html.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-29"
+}
