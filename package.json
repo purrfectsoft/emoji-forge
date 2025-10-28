@@ -18,7 +18,8 @@
     "resize": "bash ./scripts/resize.sh",
     "check": "bash ./scripts/check.sh && yarn build:registry --check",
     "build:registry": "tsx src/build-registry.ts",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "export": "bash ./scripts/export.sh"
   },
   "lint-staged": {
     "**/*.{ts,tsx,js,cjs,mjs,json,jsonc,md,mdx,yaml,yml}": [

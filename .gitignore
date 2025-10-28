@@ -60,3 +60,6 @@ desktop.ini
 *.log
 *.orig
 *.rej
+
+# Exports
+exports/
