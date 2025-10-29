@@ -9,8 +9,8 @@ skeleton of creativity.
 - Shape: Slightly tilted **shield** or **tag frame**, hinting the `< >` motif.
 - Symbol: White **angle bracket** or simplified **HTML5 mark**, clean and
   readable.
-- Feline accents: tiny `<cat>` `</cat>` tags hidden subtly within or near the
-  top left and bottom right corners respectively.
+- Feline accents:  tiny `<cat>` `</cat>` tags hidden subtly within the html logo
+  near the top left and bottom right corners respectively.
 - Background: solid **#00FF43** (chroma key).
 - Style: flat, simple, geometric, same lineage as `purr_js` and `purr_ts`.
 - Emotion: confidence, foundation, “the first brick of the web”.

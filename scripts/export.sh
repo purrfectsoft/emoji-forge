@@ -25,7 +25,7 @@ exported=0
 # Find all finalized emojis (exclude *_hires and *_transparent), null-delimited
 # and loop safely even if filenames have spaces.
 find emoji-forge -type f -name 'purr_*.png' \
-  ! -name '*_hires.png' ! -name '*_transparent.png' -print0 \
+  ! -name '*_hires.png' ! -name '*_transparent.png' ! -name '*_neutral.png' -print0 \
 | sort -z \
 | while IFS= read -r -d '' f; do
     name="$(basename "$f")"
