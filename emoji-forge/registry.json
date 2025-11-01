@@ -92,5 +92,41 @@
       "#1f77b4"
     ],
     "date_forged": "2025-10-29"
+  },
+  {
+    "index": "006",
+    "slug": "node",
+    "display_name": "Node.js",
+    "path": "emoji-forge/006/node",
+    "file_hires": "purr_node_hires.png",
+    "file_transparent": "purr_node_transparent.png",
+    "file_discord": "purr_node.png",
+    "category": "Engineering - Languages",
+    "planet": "Purrfect Software Limited",
+    "palette": [
+      "#f7df1e",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-10-29"
+  },
+  {
+    "index": "007",
+    "slug": "tiktaalik",
+    "display_name": "The Bridgewalker — Water to Land Courage",
+    "path": "emoji-forge/007/tiktaalik",
+    "file_hires": "purr_tiktaalik_hires.png",
+    "file_transparent": "purr_tiktaalik_transparent.png",
+    "file_discord": "purr_tiktaalik.png",
+    "category": "Evolution & Transitions",
+    "planet": "Purrfect Universe (Core Mythos)",
+    "palette": [
+      "#f7df1e",
+      "#d2691e",
+      "#228b22",
+      "#1f77b4"
+    ],
+    "date_forged": "2025-11-01"
   }
 ]

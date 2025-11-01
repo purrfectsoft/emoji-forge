@@ -1,0 +1,19 @@
+{
+  "emoji_name": "node",
+  "display_name": "Node.js",
+  "index": "006",
+  "category": "Engineering - Languages",
+  "planet": "Purrfect Software Limited",
+  "keywords": ["node", "node.js", "purrfect", "emoji", "catpaw", "chroma"],
+  "palette": ["#f7df1e", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "#00FF43",
+  "symbol": "DEFINE",
+  "easter_egg": "optional feline motif",
+  "file_hires": "purr_node_hires.png",
+  "file_discord": "purr_node.png",
+  "authors": ["Arafat Zahan", "GPT-5"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-10-29"
+}

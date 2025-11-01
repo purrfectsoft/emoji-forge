@@ -22,7 +22,7 @@
     "export": "bash ./scripts/export.sh",
     "clean": "bash ./scripts/clean.sh",
     "clean:exports": "bash ./scripts/clean.sh -- exports",
-    "rebuild": "yarn clean && yarn resize && yarn export",
+    "rebuild": "yarn clean && yarn resize && yarn export && yarn build:registry",
     "rebuild:one": "IDX=${IDX:-} && [ -n \"$IDX\" ] && bash ./scripts/clean.sh -- \"$IDX\" && yarn resize -- \"$IDX\" && yarn export || echo \"Set IDX=003 or similar\""
   },
   "lint-staged": {

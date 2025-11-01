@@ -1,0 +1,30 @@
+{
+  "emoji_name": "tiktaalik",
+  "display_name": "The Bridgewalker — Water to Land Courage",
+  "index": "007",
+  "category": "Evolution & Transitions",
+  "planet": "Purrfect Universe (Core Mythos)",
+  "keywords": [
+    "tiktaalik",
+    "evolution",
+    "transition",
+    "water to land",
+    "courage",
+    "pioneer",
+    "bridgewalker",
+    "purrfect universe",
+    "mythos",
+    "emoji"
+  ],
+  "palette": ["#f7df1e", "#d2691e", "#228b22", "#1f77b4"],
+  "style": "flat",
+  "aspect_ratio": "1:1",
+  "background": "#00FF43",
+  "symbol": "Δ",
+  "easter_egg": "subtle feline ripple/paw to show PU lineage",
+  "file_hires": "purr_tiktaalik_hires.png",
+  "file_discord": "purr_tiktaalik.png",
+  "authors": ["Arafat Zahan", "GPT-5 Thinking"],
+  "supervised_by": "Misty, Keeper of Wisdom",
+  "date_forged": "2025-11-01"
+}
